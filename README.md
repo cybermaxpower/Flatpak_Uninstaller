@@ -1,6 +1,18 @@
 # Flatpak Uninstaller
 A graphical desktop tool to easily browse and uninstall Flatpak applications on your Linux system.
 
+---
+
+## 🌐 Compatibility & Requirements
+Compatibility: 100% Cross-Distribution (Works on MX Linux, Ubuntu, Debian, Fedora, Arch, openSUSE, etc.)
+
+Dependencies: Before running the script, ensure you have flatpak and zenity installed via your system's package manager:
+
+* **Debian / Ubuntu / MX Linux:** `sudo apt install flatpak zenity`
+  
+* **Fedora:** `sudo dnf install flatpak zenity`
+  
+* **Arch Linux:** `sudo pacman -S flatpak zenity`
 
 ---
 
