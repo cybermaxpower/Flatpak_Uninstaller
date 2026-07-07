@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# Tool Name:    Automated Installer for Flatpak Progress Uninstaller
+# Tool Name:    Automated Installer for Flatpak Uninstaller
 # Description:  Deploys the uninstaller script to global binaries, creates the 
 #               desktop menu item, and makes everything executable.
 # ==============================================================================
@@ -31,7 +31,7 @@ mkdir -p "$APPS_DIR"
 cat << EOF > "$LAUNCHER_FILE"
 [Desktop Entry]
 Type=Application
-Name=Flatpak Progress Uninstaller
+Name=Flatpak Uninstaller
 Comment=Cleanly remove Flatpak applications with a progress bar
 Exec=/usr/local/bin/flatpak-uninstaller.sh
 Icon=system-software-install
@@ -43,7 +43,7 @@ EOF
 chmod +x "$LAUNCHER_FILE"
 
 # 3. Force the desktop database to refresh and notice the new app
-echo "⚙️  Refreshing MX Linux application menu registry..."
+echo "⚙️  Refreshing application menu registry..."
 update-desktop-database "$APPS_DIR"
 
-echo "✅ Installation successful! You can now launch the 'Flatpak Progress Uninstaller' directly from your application menu."
+echo "✅ Installation successful! You can now launch the 'Flatpak Uninstaller' directly from your application menu."
