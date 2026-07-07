@@ -24,7 +24,7 @@ sudo chmod +x /usr/local/bin/flatpak-uninstaller.sh
 # 2. Automatically generate the clean desktop entry in the user's applications folder
 echo "🖥️  Creating desktop application menu shortcut..."
 APPS_DIR="$HOME/.local/share/applications"
-LAUNCHER_FILE="$APPS_DIR/flatpak-progress-uninstaller.desktop"
+LAUNCHER_FILE="$APPS_DIR/flatpak-uninstaller.desktop"
 
 mkdir -p "$APPS_DIR"
 
