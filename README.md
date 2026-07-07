@@ -4,6 +4,18 @@ A graphical desktop tool to easily browse and uninstall Flatpak applications on 
 
 ---
 
+## 🚀 Quick Installation
+Open your terminal, clone this repository, and run the automated installation script:
+
+~~~Bash
+git clone https://github.com/cybermaxpower/Flatpak_Uninstaller.git
+cd Flatpak_Uninstaller
+chmod +x install.sh
+./install.sh
+~~~
+
+
+---
 ## ⚖️ Warranty & Liability Disclaimer
 
 ### **NO WARRANTY (PROVIDED "AS IS")**
