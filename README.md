@@ -1,4 +1,6 @@
 # Flatpak Uninstaller
+<img src="screenshots/preview.png">
+
 A graphical desktop tool to easily browse and uninstall Flatpak applications on your Linux system.
 
 ---
