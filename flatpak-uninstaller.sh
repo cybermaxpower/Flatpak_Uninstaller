@@ -3,7 +3,7 @@
 # Tool Name:    Flatpak Uninstaller
 # Description:  A graphical utility to browse, select, and cleanly uninstall
 #               Flatpak applications (both User and System scopes) via Zenity.
-# Usage:        flatpak-uninstaller.sh
+# Usage:        ./flatpak-uninstaller.sh
 # ==============================================================================
 
 export GDK_BACKEND=wayland,x11
