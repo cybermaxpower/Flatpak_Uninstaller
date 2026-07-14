@@ -14,10 +14,7 @@ export LC_ALL=C
 # 1. FRONT-LOADED DISCLAIMER & WARNING
 # Pure plain-text execution to completely eliminate GTK window parsing crashes.
 # ==============================================================================
-# ==============================================================================
-# 1. FRONT-LOADED DISCLAIMER & WARNING
-# Forces a Question layout (OK/Cancel buttons) combined with a Warning Triangle icon.
-# ==============================================================================
+
 zenity --question --title="Flatpak Uninstaller Disclaimer" --icon-name=dialog-warning --text="WARNING: IMPORTANT SAFETY DISCLAIMER\n\nThis utility is provided 'as is'. While removing Flatpaks is completely safe for your core operating system, uninstalling packages will permanently delete local user settings, configurations, or saved data files associated with that application.\n\nDo you wish to proceed responsibly?" --width=450
 
 if [ $? -ne 0 ]; then
